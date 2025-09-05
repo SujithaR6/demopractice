@@ -111,6 +111,7 @@ public class NavigationCommands {
             System.out.println("Failed to return to the original tab.");
             
         }
+        System.out.println("hello world");
  
 //      Close browser
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
